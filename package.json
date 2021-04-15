@@ -3,7 +3,7 @@
   "description": "文字展开收起功能",
   "main": "./dist/uiUnfold.js",
   "version": "1.0.0",
-  "author": "DuanShuaiShuai <duanshsh@bertadata.com>",
+  "author": "DuanShuaiShuai <blockchain07@163.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
