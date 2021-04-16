@@ -14,8 +14,7 @@
           src="../assets/gradient.png"
           alt="渐变"
           class="gradient"
-        />
-        <span class="click-unfold"> {{ folded ? "展开" : "收起" }}</span>
+        /><span class="click-unfold"> {{ folded ? "展开" : "收起" }}</span>
       </span>
     </div>
   </div>

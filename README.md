@@ -2,17 +2,48 @@
 
 > 文字展开收起功能
 
-## Build Setup
+## 下载
 
 ``` bash
 # install dependencies
-npm install
+npm i vue-unfold -D
+```
+##  引入
+```vue
+<template>
+  <div id="app">
+    <ui-unfold
+      lineHeight="19"
+      line="2"
+      text="测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案测试文案"
+    ></ui-unfold>
+  </div>
+</template>
 
-# serve with hot reload at localhost:8080
-npm run dev
+<script>
+import UiUnfold from "./components/ui-unfold";
+export default {
+  name: "app",
+  components: {
+    UiUnfold
+  },
+  data() {
+    return {
+      msg: "Welcome to Your Vue.js App"
+    };
+  }
+};
+</script>
 
-# build for production with minification
-npm run build
+<style>
+#app {
+  margin: 0 auto;
+  width: 400px;
+  border: 1px solid black;
+  padding: 20px;
+}
+</style> 
+
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
